@@ -14,8 +14,8 @@ const bookSecond = {
 
 describe("Избранное", () => {
   beforeEach(() => {
-    cy.visit('http://localhost:3000')
-    cy.login("bropet@mail.ru", "123")
+    cy.visit('http://localhost:3000');
+    cy.login("bropet@mail.ru", "123");
   });
 
 
